@@ -15,6 +15,7 @@ pipeline {
             steps {
                 sh 'npm i styled-components'
                 sh 'npm install react-router-dom'
+                sh 'npm install react-icons/fa'
                 sh 'npm test'
             }
         }
