@@ -16,6 +16,7 @@ pipeline {
                 sh 'npm i styled-components'
                 sh 'npm install react-router-dom'
                 sh 'npm install react-icons/fa'
+                sh 'npm install react-chartjs-2'
                 sh 'npm test'
             }
         }
