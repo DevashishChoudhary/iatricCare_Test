@@ -3,7 +3,7 @@ pipeline {
   agent any
   
   stages {
-        stage('Build') {
+        stage('Test') {
             steps {
                 sh 'cd /React_Test/iatricCare_Test'
             }
