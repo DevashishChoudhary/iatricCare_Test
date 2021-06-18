@@ -8,9 +8,7 @@ pipeline {
                 sh 'cd /React_Test/iatricCare_Test'
             }
         }
-  }
-  
-  stages {
+    
         stage('Build') {
             steps {
                 sh 'npm run build'
