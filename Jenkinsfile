@@ -5,7 +5,7 @@ pipeline {
   stages {
         stage('Test') {
             steps {
-                sh 'cd /React_Test/iatricCare_Test'
+                sh 'cd /React_Test/iatricCare_Test/src'
             }
         }
     
